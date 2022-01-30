@@ -1,0 +1,35 @@
+p {
+	color: grey;
+}
+.text {
+	color: indigo;
+}
+.article,
+.paragraph {
+	color: lightblue;
+}
+div.text {
+	color: lightgreen;
+}
+span {
+	color: rosybrown;
+}
+#block {
+	color: seagreen;
+}
+div {
+	color: tan;
+}
+
+.article.paragraph {
+	color: tomato;
+}
+p span {
+	color: blue;
+}
+.section > p {
+	color: cadetblue;
+}
+[class*="-text"] {
+	color: pink;
+}
